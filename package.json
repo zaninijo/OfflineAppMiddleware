@@ -25,5 +25,8 @@
     "@types/uuid": "^10.0.0",
     "@types/ws": "^8.5.12"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
 }
