@@ -8,8 +8,7 @@ const cfg = require("./config.json")
 
 const config = {
     ...cfg,
-    keys
+    ...keys
 };
-
 
 module.exports = config;
