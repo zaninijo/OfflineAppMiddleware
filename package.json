@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "API middleware para controlar o acesso à API do Gemini.",
-  "engines" : { 
-    "node" : ">=14.0.0"
+  "engines": {
+    "node": ">=14.0.0"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "express-rate-limit": "^7.4.1",
     "firebase-admin": "^12.6.0",
@@ -25,8 +26,5 @@
     "@types/uuid": "^10.0.0",
     "@types/ws": "^8.5.12"
   },
-  "type": "module",
-  "scripts": {
-    "start": "node index.js"
-  }
+  "type": "module"
 }
