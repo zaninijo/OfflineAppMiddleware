@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "description": "API middleware para controlar o acesso à API do Gemini.",
+  "engines" : { 
+    "node" : ">=14.0.0"
+  }
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "express": "^4.21.1",
