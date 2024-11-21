@@ -1,0 +1,9 @@
+{
+   "reportRequest": {
+        "X-Authorization": "123", 
+        "X-Content": {
+            "data1": "Data",
+            "data2": "Data"
+        }
+    }
+}

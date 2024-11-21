@@ -1,0 +1,26 @@
+{
+  "name": "gatekeeper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "API middleware para controlar o acesso à API do Gemini.",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "firebase-admin": "^12.6.0",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.12"
+  },
+  "type": "module"
+}
